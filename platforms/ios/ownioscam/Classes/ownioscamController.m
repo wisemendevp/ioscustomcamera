@@ -38,7 +38,7 @@
         
         self.view.frame = screenFrame;
        self.view.window.frame = screenFrame;
-       self.picker.view.frame = screenFrame;
+     //  self.picker.view.frame = screenFrame;
      //   self.picker.modalPresentationStyle = UIModalPresentationCustom;
       
 //        self.view.userInteractionEnabled = YES;
@@ -62,7 +62,8 @@
         else
         
     {
-        self.picker.view.frame = CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height );
+      self.picker.view.frame = CGRectMake(100,0,self.view.frame.size.width,self.view.frame.size.height );
+       // self.picker.view.frame = CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height );
       //  self.picker.cameraViewTransform = CGAffineTransformMakeScale(1.0,1.0);
      
     }
