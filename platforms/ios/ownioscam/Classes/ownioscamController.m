@@ -63,7 +63,7 @@
         
     {
        // self.picker.view.frame = CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height );
-        self.picker.cameraViewTransform = CGAffineTransformMakeScale(1.0,1.0);
+        self.picker.cameraViewTransform = CGAffineTransformMakeScale(0.5,0.5);
      
     }
        [Toolbarproperty setItems:[[NSArray alloc]initWithObjects:Flashproperty,AutoProperty,nil,nil, nil]];
