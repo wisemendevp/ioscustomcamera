@@ -49,6 +49,8 @@
 //
         
         UIDeviceOrientation orientation = [[UIDevice currentDevice] orientation];
+         if(orientation == UIDeviceOrientationPortrait)
+
         {
       CGSize screenBounds = [UIScreen mainScreen].bounds.size;
       CGFloat cameraAspectRatio = 4.0f/3.0f;
